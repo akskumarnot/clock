@@ -8,6 +8,7 @@ int startx1,starty1;bool press1=false;
 alarmdialog::alarmdialog(QWidget*parent):QWidget(parent)
 {
 QLabel *lab=new QLabel("*SET Alarm*");
+lab->setAlignment(Qt::AlignHCenter);
 QPalette pal=palette();
 QColor color(0,255,70);
 pal.setColor(QPalette::WindowText,color);
